@@ -27,4 +27,4 @@ else:
         reminder += ". Plan to complete it soon."
 
 # Provide customized reminder
-print(f"\nReminder: {reminder}")
+print(f"Reminder: {reminder}")
