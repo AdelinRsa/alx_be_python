@@ -3,7 +3,7 @@ task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ").lower()
 time_bound = input("Is it time-bound? (yes/no): ").lower()
 
-# Initialize reminder message
+# Initialize the reminder message
 reminder = f"'{task}' is a {priority} priority task."
 
 # Process the task based on priority
@@ -25,4 +25,3 @@ elif time_bound == "no":
 
 # Print the customized reminder
 print(reminder)
-
